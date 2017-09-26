@@ -1,0 +1,15 @@
+body {
+	background-image: url("https://i.pinimg.com/736x/c4/c2/5f/c4c25fce75fa04ff33d3a9519c929302--teal-wallpaper-pattern-wallpaper.jpg");
+
+}
+
+
+#logo {
+	background-color: orange;        
+	color: white;
+}
+
+p {
+	color: green;
+	font-family: "Times New Roman", sans-serif;
+}

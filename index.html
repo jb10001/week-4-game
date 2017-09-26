@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascrpt" src="assets/javascript/game.js"> </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrystalsCollector!</title> --> 
+</head>
+
+<body>
+	
+    <header id="masthead">
+      
+      <div class="container">
+		<a href="index.html" id="logo"><h2>CrystalsCollector!</h2></a>
+     </div>
+  </header>
+
+    <div id="main-container">
+
+      <section class="instructions">
+
+      	<p>
+      		You will be given a random number at the start of the game.
+        </p>
+		<p>
+			There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <!-- Or use Line Spacing HERE -->
+      	</p>
+		<p>
+			You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+	    </p>
+	    <p>
+			The value of each crystal is hidden from you until you click on it.
+		</p>
+		<p>
+			Each time when the game starts, the game will change the values of each crystal
+		</p>
+
+<!-- Calculator Panel !-->
+<input type="image" src="https://cdn1.iconfinder.com/data/icons/outlined-medieval-icons-pack/200/minerals_red_stone-512.png"/>
+
+
+<!-- Test Button !-->
+ <button id="button-1" class="btn btn-primary number" value="1"><h1>1</h1></button>
+
+<!-- Must Display RandomNumberVariable Here !-->
+	<!-- Requirements: 
+		in-line block, 2 blocks different sizes. 
+			Block 1 = RandomNumberVariables, green background
+			Block 2 = WinCount and LoseCount, blue background !-->
+
+
+<!-- Must Display Crystals Here !-->
+	<!-- Requirements: 
+			in-line block, 4 blocks all same size, image on each one  !-->
+
+<button id="button-red" class="crystal" value=""><h1>Red Crystal Here</h1></button>
+<button id="button-blue" class="crystal" value=""><h1>Blue Crystal Here</h1></button>
+<button id="button-yellow" class="crystal" value=""><h1>Yellow Crystal Here</h1></button>
+<button id="button-green" class="crystal" value=""><h1>Green Crystal Here</h1></button>
+
+
+
+
+<!-- Must Display "Your Total Score" Here !-->
+	<!-- Requirements: 
+			Layered look (1 box ontop of the other) total 2 boxes
+			Block 1: text "Your Total Score"
+			Block 2: userTotalScore       !-->
+
+   <!-- Question: how do I make a box? 
+
+   							!-->
+
+
+</div>
+</section>
+</body>
